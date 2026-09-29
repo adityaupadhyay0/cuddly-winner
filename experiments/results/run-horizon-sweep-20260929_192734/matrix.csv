@@ -1,0 +1,6 @@
+total_workflows,completed_workflows,kv_evictions,kv_recomputations,kv_eviction_rate,recomputation_rate,gpu_active_time,gpu_idle_time,jct_p50,jct_p95,deadline_misses,tenant_fairness,forecasts_sent,horizon_sec
+20,20,39,39,1.95,1.0,59.87,20.43,16.2,20.47,0,1.0,40,1.0
+20,20,39,39,1.95,1.0,59.87,20.43,16.2,20.47,0,1.0,40,2.0
+20,20,39,39,1.95,1.0,59.87,20.43,16.2,20.47,0,1.0,40,5.0
+20,20,39,39,1.95,1.0,59.87,20.43,16.2,20.47,0,1.0,40,10.0
+20,20,39,39,1.95,1.0,59.87,20.43,16.2,20.47,0,1.0,40,30.0

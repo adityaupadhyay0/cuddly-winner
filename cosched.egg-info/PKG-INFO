@@ -1,0 +1,23 @@
+Metadata-Version: 2.4
+Name: cosched
+Version: 0.3.0
+Summary: CoSched: Cooperative Agent-Infrastructure Coordination Protocol Reference Implementation
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic<3.0,>=2.0
+Provides-Extra: dev
+Requires-Dist: pytest<9.0,>=8.0; extra == "dev"
+
+# CoSched v0.3: Cooperative Agent–Infrastructure Coordination Protocol
+
+Research implementation, simulator, and reference daemon for the CoSched v0.3 SRS.
+
+## Overview
+CoSched is a bidirectional coordination protocol for agentic workloads and compute infrastructure.
+
+## Usage
+```bash
+pip install -e .
+python -m cosched simulate --policy P0
+pytest
+```

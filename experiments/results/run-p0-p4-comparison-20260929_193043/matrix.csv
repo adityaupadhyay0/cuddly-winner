@@ -1,0 +1,7 @@
+total_workflows,completed_workflows,kv_evictions,kv_recomputations,kv_eviction_rate,recomputation_rate,gpu_active_time,gpu_idle_time,jct_p50,jct_p95,deadline_misses,tenant_fairness,forecasts_sent,policy
+20,20,28,28,1.4,1.0,81.47,18.3,19.8,25.94,0,1.0,0,P0
+20,20,40,40,2.0,1.0,83.87,18.33,19.95,25.95,0,1.0,0,P1
+20,20,39,39,1.95,1.0,82.67,18.33,19.95,25.95,0,1.0,40,P2
+20,20,39,39,1.95,1.0,82.67,18.33,19.95,25.95,0,1.0,40,P3
+20,20,39,39,1.95,1.0,82.67,18.33,19.95,25.95,0,1.0,40,P4
+20,20,9,9,0.45,1.0,63.47,18.34,16.78,20.99,0,1.0,0,ORACLE
